@@ -1,0 +1,59 @@
+
+body{
+	background: linear-gradient(to right, blue, silver) ;
+	text-align: center;
+}
+
+.container{
+	max-width: 350px;
+	min-width: 300px;
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	padding: 1em;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+	color: white;
+
+	
+}
+.fase1{
+	display: block;
+	
+}
+	button{
+		width: 80px;
+		height: 35px;
+		background: black;
+		color: white;
+		border-radius: 8px;
+		box-shadow: 1px 1px 5px black;
+		transition: all 0.2s ease;
+		margin:20px;
+	}
+	button:hover{
+		background: silver;
+		color: black;
+		transform: scale(1.03)
+	}
+	
+	input{
+		padding: 5px;
+		border-radius: 6px;
+		border: none;
+	}
+	.fase2{
+		display: none;
+	}
+	
+	.faseFinal{
+		display: none;
+	}
+	#resultado{
+		font-size: 25px;
+		
+	}
+	h1{
+		color:white;
+	}
