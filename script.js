@@ -61,7 +61,7 @@ function permicao(){
         }
         else if (imc >= 25 && imc < 30 ){
             console.log("Sobrepeso / Obesidade:1")
-            resultado = "Sobrepeso / obesidade:1"
+            resultado.innerHTML = "Sobrepeso / obesidade:1"
             resultado.style.color = 'yellow'
         }
         else if (imc >= 30 && imc < 40 ){
